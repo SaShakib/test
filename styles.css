@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.header {
+	height: 100vh;
+}
+.navbar-style {
+	box-shadow:  0 5px 10px #efefef ;
+	text-transform: uppercase;
+}
+.logo {
+	height: 50px;
+	padding-left:2%;
+}
+
+.icon-bar {
+	background: darkorange;
+}
+li a {
+	
+}
+.welcome{
+	margin-left: 27%;
+	
+
+}
+.Text{
+	font-size: 32px;
+	margin: 10px 10px; 
+	color: darkorange;
+
+	
+}
+
+a.btn {
+
+	margin: 30px 10px;
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+a.btn-second {
+	background: transparent;
+	border: 1px solid darkorange;
+	color: black;
+	margin-left: 40%;
+}
+a.btn:hover {
+	background: darkorange;
+	border: none;
+	color:#fff;
+	box-shadow: 5px 5px 5px #999;
+	transition: .3s;
+}
+
+.logout {
+	border: none;
+
+	color: #1a75ff;
+	margin-top: 10px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.logout:hover {
+	background-color: #efefef;
+	box-shadow:  0 5px 10px #efefef ;
+}

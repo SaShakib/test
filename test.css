@@ -1,0 +1,30 @@
+body {
+
+}
+#chat {
+	margin: 0;
+	padding: 0;
+    /**background: #121412;*/
+	background-size: cover;
+	font-family: sans-serif; 
+	width: 700px;
+	height: 550px;
+	border: 2px solid #02fc30;
+	margin: auto;
+}
+#chatbox {
+	width: 700px;
+	height: 500px;
+	font-size: 19px;
+	font-weight: normal;
+}
+
+#chatText {
+	width: 699px;
+	height: 49px;
+	color: white;
+	font-size: 16px;
+	border-bottom: 2px solid #333;
+	border: 1px solid white;
+	background: transparent;
+}

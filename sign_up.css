@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #121412;
+	background-size: cover;
+	font-family: sans-serif;
+
+}
+h1{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.loginbox{
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	position: absolute;
+	width: 280;
+	left: 39%;
+	top: 40%;
+ 	transform: translate(-50% -50px);
+	color: white;
+
+
+	padding:0px 15px;
+}
+.loginbox h1{
+	border-bottom: 3px solid green;
+	float: left;
+	font-size: 40px;
+	margin-bottom: 3px;
+	padding: 10px 0;
+}
+.loginbox a {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;
+	border: 10px;
+	
+}
+.loginbox a:hover
+{
+	cursor: pointer;
+	color: #397c09;
+	
+	
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 16px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 2px solid green;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+
+}
+.Submit
+{
+	background: none;
+	width: 100%;
+	color: grey;
+	outline: none;
+	border: none;
+	border: 2px solid green;
+	border-radius: 20px;
+	font-size: 18px;
+	padding: 5px;
+
+}
+.Submit:hover {
+	cursor: pointer;
+	border: 2px solid 	#32CD32;
+
+}
